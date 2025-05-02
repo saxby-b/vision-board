@@ -1,0 +1,26 @@
+/*General Styles */
+body {
+    background: url("../img/background.png");
+    box-sizing: border-box;
+}
+
+#vision-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.block {
+    width: 33%;
+}
+
+.large-block {
+    height: 430px;
+    padding-top: 40px;
+    
+}
+
+.small-block {
+    height: 210px;
+}
