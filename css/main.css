@@ -11,16 +11,22 @@ body {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    width: 100%;
+    height: 850px;
 }
 
 .block {
     width: 33%;
     outline: 1px dashed darkgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .large-block {
     height: 430px;
     padding-top: 40px;
+    flex-flow: column wrap;
     
 }
 
