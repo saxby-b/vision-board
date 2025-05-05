@@ -4,6 +4,7 @@ body {
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
+
 }
 
 #vision-board {
@@ -32,4 +33,21 @@ body {
 
 .small-block {
     height: 210px;
+}
+
+span.highlight {
+    background-color: #FFF44F;
+}
+
+
+.middle {
+    background-color: #3b3b3b;
+}
+
+div.block.small-block.right {
+    justify-content: flex-end;
+}
+
+div.block.small-block.right p {
+    padding-right: 50px;
 }
