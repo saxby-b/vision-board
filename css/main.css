@@ -2,6 +2,8 @@
 body {
     background: url("../img/background.png");
     box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
 }
 
 #vision-board {
@@ -13,6 +15,7 @@ body {
 
 .block {
     width: 33%;
+    outline: 1px dashed darkgreen;
 }
 
 .large-block {
