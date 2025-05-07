@@ -14,6 +14,7 @@ body {
     flex-flow: row wrap;
     width: 100%;
     height: 850px;
+    font-size: 20px;
 }
 
 .block {
@@ -53,6 +54,8 @@ div.block.small-block.right {
 
 div.block.small-block.right p {
     padding-right: 50px;
+    text-align: right;
+    margin-top: 0;
 }
 
 div.block.large-block.right {
@@ -61,4 +64,33 @@ div.block.large-block.right {
     justify-content: center;
     align-items: flex-end;
 
+}
+
+.grow {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.grow p {
+    margin: 0;
+    text-align: left;
+    padding-left: 50px;
+}
+
+img.travel, p.travel {
+    padding-right: 30px;
+}
+p.travel {
+    text-align: right;
+}
+
+strong {
+    font-size: 38px;
+    line-height: 38px;
+}
+
+.corner {
+    background-color: #fff;
 }
