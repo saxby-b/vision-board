@@ -45,9 +45,20 @@ span.highlight {
 }
 
 div.block.small-block.right {
-    justify-content: flex-end;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
 }
 
 div.block.small-block.right p {
     padding-right: 50px;
+}
+
+div.block.large-block.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+
 }
