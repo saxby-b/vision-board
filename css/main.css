@@ -9,6 +9,7 @@ body {
 
 }
 
+/*Vision Board */
 #vision-board {
     display: flex;
     justify-content: center;
@@ -25,14 +26,15 @@ body {
     
 }
 
+/*Generic Block */
 .block {
     width: 33.33%;
-   /* outline: 1px dashed darkgreen; */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+/*Specific Blocks*/
 .large-block {
     height: 430px;
     padding-top: 40px;
@@ -44,28 +46,6 @@ body {
     height: 210px;
 }
 
-span.highlight {
-    background-color: #FFF44F;
-}
-
-
-.middle {
-    background-color: #3b3b3b;
-}
-
-div.block.small-block.right {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    flex-direction: column;
-}
-
-div.block.small-block.right p {
-    padding-right: 50px;
-    text-align: right;
-    margin-top: 0;
-}
-
 div.block.large-block.right {
     display: flex;
     flex-direction: column;
@@ -74,11 +54,41 @@ div.block.large-block.right {
 
 }
 
+
+div.block.small-block.right {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.middle {
+    background-color: #3b3b3b;
+}
+
 .grow {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
+}
+
+
+.corner {
+    background-color: #fff;
+}
+
+span.highlight {
+    background-color: #FFF44F;
+}
+
+
+/*Paragraph Styles */
+
+div.block.small-block.right p {
+    padding-right: 50px;
+    text-align: right;
+    margin-top: 0;
 }
 
 .grow p {
@@ -96,21 +106,26 @@ p.title {
     font-size: 30px;
     text-align: center;
 }
+
+p.travel {
+    text-align: right;
+}
+
+/*Span styles */
 span#year {
     font-family: "Permanent Marker", cursive;
     font-size: 20px;
 }
-p.travel {
-    text-align: right;
+span.highlight {
+    background-color: #FFF44F;
 }
+
+/*Strong Styles */
 
 strong {
     font-size: 38px;
     line-height: 38px;
 }
 
-.corner {
-    background-color: #fff;
-    /* padding:  0 2px; */
-}
+
 
