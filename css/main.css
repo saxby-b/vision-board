@@ -129,6 +129,66 @@ strong {
 }
 
 
+@media (min-device-width: 768px) {
+    #vision-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 80%;
+    font-size: 20px;
+   background: url("../img/background.png");
+   background-size: cover;
+    border: 2px solid #E8E8E8;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+    .block {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#grow {
+    order: 1;
+}
+
+#flower {
+    order: 2;
+}
+
+#goals {
+    order: 3;
+}
+
+#freelance {
+    order: 5;
+}
+
+#vision {
+    order: 6;
+    width: 100%;
+}
+#travel {
+    order: 7;
+}
+
+#list {
+    order: 8;
+}
+
+#corgi {
+    order: 9;
+}
+#health {
+    order: 4;
+    
+}
+    
+}
 
 @media (min-width: 1200px) {
 /*General Styles */
