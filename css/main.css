@@ -166,18 +166,20 @@ strong {
 
 #freelance {
     order: 5;
+    width: 40%;
 }
 
 #vision {
     order: 6;
-    width: 100%;
+    width: 40%;
 }
 #travel {
-    order: 7;
+    order: 8;
 }
 
 #list {
-    order: 8;
+    order: 7;
+    height: 430px;
 }
 
 #corgi {
