@@ -161,29 +161,41 @@ strong {
 }
 
 #goals {
-    order: 3;
+    order: 9;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+
 }
 
 #freelance {
-    order: 5;
+    order: 6;
     width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: column wrap;
+
 }
 
 #vision {
-    order: 6;
+    order: 5;
     width: 40%;
 }
 #travel {
-    order: 8;
+    order: 7;
+    image-orientation: flip;
 }
 
 #list {
-    order: 7;
+    order: 8;
     height: 430px;
 }
 
 #corgi {
-    order: 9;
+    order: 3;
 }
 #health {
     order: 4;
