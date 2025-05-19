@@ -146,7 +146,7 @@ strong {
     
 }
     .block {
-    width: 40%;
+    width: 50%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -172,7 +172,7 @@ strong {
 
 #freelance {
     order: 6;
-    width: 40%;
+    width: 50%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -182,11 +182,22 @@ strong {
 
 #vision {
     order: 5;
-    width: 40%;
+    width: 50%;
+    
 }
 #travel {
     order: 7;
-    image-orientation: flip;
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-start;
+    padding: 0;
+    padding-top: 20px;
+    
+}
+
+#travel img {
+    transform: rotateY(180deg);
+    padding: 0;
 }
 
 #list {
@@ -196,6 +207,9 @@ strong {
 
 #corgi {
     order: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #health {
     order: 4;
