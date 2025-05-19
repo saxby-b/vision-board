@@ -152,6 +152,10 @@ strong {
     align-items: center;
 }
 
+.large-block {
+    width: 50%;
+}
+
 #grow {
     order: 1;
 }
@@ -172,7 +176,6 @@ strong {
 
 #freelance {
     order: 6;
-    width: 50%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -182,7 +185,6 @@ strong {
 
 #vision {
     order: 5;
-    width: 50%;
     
 }
 #travel {
@@ -218,7 +220,7 @@ strong {
     
 }
 
-@media (min-width: 1200px) {
+@media (min-device-width: 1200px) {
 /*General Styles */
 body {
     border: 20px solid #E8E8E8;
@@ -262,6 +264,41 @@ body {
     padding-top: 40px;
     flex-flow: column wrap;
     
+}
+/* Order */
+#goals {
+    order: 3;
+    width: 33.33%;
+}
+
+#flower {
+    order: 2;
+}
+
+#freelance {
+    order: 4;
+}
+
+#vision {
+    order: 5;
+}
+
+#travel {
+    order: 6;
+}
+
+#list {
+    order: 7;
+    height: 210px;
+}
+
+#corgi {
+    order: 8;
+    height: 210px;
+}
+
+#health {
+    order: 9;
 }
 
 .small-block {
