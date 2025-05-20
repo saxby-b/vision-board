@@ -285,6 +285,13 @@ body {
 
 #travel {
     order: 6;
+    text-align: right;
+    align-items: flex-end;
+}
+
+#travel img {
+    transform: rotateY(0deg);
+    padding: 30px;
 }
 
 #list {
